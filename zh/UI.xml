@@ -18,7 +18,7 @@
             <btn_forums>讨论论坛</btn_forums>
             <btn_report>报告错误</btn_report>
             <btn_steam>Steam工作坊</btn_steam>
-            <text>欢迎来到SimAirport抢先版！我们希望您目前喜欢这个游戏。 我们  鼓励您访问论坛、在社群里积极参与、和开发者一起，在开发过程中扮演积极的角色。
+            <text>欢迎来到SimAirport抢先测试版！我们希望您目前喜欢这个游戏。 我们鼓励您访问论坛、在社群里积极参与、和开发者一起，在开发过程中扮演积极的角色。
         
 感谢您的支持，帮我们让SimAirport成为有史以来最好的大亨型管理游戏！</text>
         </EADialog>
@@ -27,7 +27,7 @@
             <modsbtn>模板</modsbtn>
             <optionsbtn>选项</optionsbtn>
             <exitbtn>退出 SimAirport</exitbtn>
-            <copyright>版权 2018年, LVGameDev LLC.  保留所有权利。 
+            <copyright>2018年, LVGameDev LLC. 版权所有  保留所有权利。 
 SimAirport是LVGameDev LLC的商标。</copyright>
         </mainmenu>
         <game>
@@ -40,9 +40,9 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                     <tt>
                         <desc0>选择您的游戏风格</desc0>
                         <desc1>用您的技巧，努力盈利！</desc1>
-                        <desc2>当您的余额为负时，不能花钱</desc2>
-                        <desc3>如果您有负余额48小时，就会破产，游戏结束</desc3>
-                        <desc4>必须从中等大小地图开始</desc4>
+                        <desc2>当您的资产余额为负时，不能花钱。</desc2>
+                        <desc3>如果您连续48小时总资产为负，就会宣告破产、游戏结束。</desc3>
+                        <desc4>必须从中型地图开始</desc4>
                         <desc5>无限资金，不会破产！</desc5>
                         <desc6>仍会追踪金钱</desc6>
                         <desc7>能继续花费，即使余额为负</desc7>
@@ -55,7 +55,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                         <desc0>玩职业模式时，您从{0}地图 ({1}x{2})开始。您能扩张并购买更多土地，来容纳您不断扩张的机场！</desc0>
                     </tt0>
                     <tt1>
-                        <desc0>玩沙盘模式时，您能选择想要从什么大小的地图开始。 之后您还能购买更多土地来扩张，但这决定了您的初始地图大小。  注意大土地的地产税更高一点！</desc0>
+                        <desc0>玩沙盘模式时，您能选择想要从什么大小的地图开始。 之后您还能购买更多土地来扩张，但这决定了您的初始地图大小。  注意：大型土地的地产税会更高一点！</desc0>
                     </tt1>
                 </size>
                 <difficulty>
@@ -67,7 +67,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 <blank>
                     <title>从头开始</title>
                     <tt>
-                        <desc>从头开始是从空白土地开始，但需要您花更多时间让机场运转起来。如果您是新玩家，我们推荐关闭它，用我们内置的初始机场环境开始玩SimAirport。</desc>
+                        <desc>从头开始是从空白土地开始，但需要您花更多时间让机场运转起来。如果您是新玩家，我们推荐关闭此选项，用我们内置的初始机场环境开始玩SimAirport。</desc>
                     </tt>
                 </blank>
             </new>
@@ -84,7 +84,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                     <title>已保存!</title>
                     <desc>您的游戏已成功保存。</desc>
                 </step2>
-                <edgeBranchNotice>我们禁止在SimAirport的Edge发布上覆盖文件，作为预防措施。每次您保存游戏时，请选择独特的名称。</edgeBranchNotice>
+                <edgeBranchNotice>我们禁止在SimAirport的Edge版本上覆盖存档文件，作为预防措施。每次您保存游戏时，请选择独特的名称。</edgeBranchNotice>
                 <overwrite>覆盖现有保存的游戏？</overwrite>
                 <search>显示了{1}中{0}个匹配"{2}"的保存游戏。
 如要浏览所有现有保存文件，请清除上方输入框里的文件名。</search>
@@ -97,7 +97,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                     <title>删除文件</title>
                     <desc>小心!
 
-这会在您的电脑上永久删除所选游戏。您确定要删除这个保存吗？</desc>
+这会在您的电脑上永久删除所选游戏。您确定要删除这个存档吗？</desc>
                 </delete>
             </load>
         </game>
@@ -112,7 +112,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 <scale>UI 比例</scale>
                 <reschange0>确认更改</reschange0>
                 <reschange1>保留这些设置吗？</reschange1>
-                <reschange2>将在 {0}秒内撤回...</reschange2>
+                <reschange2>将在 {0} 秒内撤回...</reschange2>
                 <daynightcycle>夜晚/日循环视觉</daynightcycle>
                 <shadowsAO>阴影</shadowsAO>
             </graphics>
@@ -139,7 +139,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 <timeformat>时钟/时间显示</timeformat>
                 <timeformat0>{0}-小时 ({1})</timeformat0>
                 <language>语言</language>
-                <language2>如要最佳效果，请在更改语言后重启SimAirport。</language2>
+                <language2>如要获得最佳体验，请在更改语言后重启SimAirport。</language2>
                 <zoneoverlays>区域叠加</zoneoverlays>
                 <autofocusbuildmenus>建造菜单：搜索自动聚焦</autofocusbuildmenus>
                 <holiday>假期视觉</holiday>
@@ -172,7 +172,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 <e_unknown>物品的未预期回应：{0}</e_unknown>
                 <e_exception>出错了……请通知开发者！</e_exception>
                 <step0>准备中...</step0>
-                <step1>创建保存中...</step1>
+                <step1>创建存档中...</step1>
                 <step2>创建预览中...</step2>
                 <step3>上传中...</step3>
                 <step4>准备设置中</step4>
@@ -188,7 +188,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                 <desc3>您的物品已在工作坊发布。</desc3>
                 <tt>
                     <title>服务条款</title>
-                    <desc0>您必须点击并接受Steam工作坊的服务条款，才能公开分享您的保存！</desc0>
+                    <desc0>您必须点击并接受Steam工作坊的服务条款，才能公开分享您的存档！</desc0>
                 </tt>
             </steam>
             <airports>
@@ -307,7 +307,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
         </staff>
         <research>
             <title>研究与开发</title>
-            <edgeNote>只能建造SimAirport边沿：  右击立即研究。</edgeNote>
+            <edgeNote>仅适用于 SimAirport Edge 版本：右击立即完成研究。</edgeNote>
         </research>
         <flightmgr>
             <title>航班管理</title>
@@ -573,7 +573,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
                     <tt_na>
                         <desc1>没有可更新的 {0}。</desc1>
                     </tt_na>
-                    <row6>Arcade Games</row6>
+                    <row6>娱乐设施</row6>
                 </maintenance>
                 <transport_capacity>
                     <title>运输载客量</title>
@@ -624,7 +624,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
         <flight_schedule>
             <title>航班管理</title>
             <subheading>航班合约和航班时间编排</subheading>
-            <description>航班合约是机场的命脉；  一切都从接受的合约开始，以细致的时间表结束！</description>
+            <description>航班合约是机场的命脉；  一切都从接受合约开始，以细致的时间表结束！</description>
         </flight_schedule>
         <flight_status>
             <title>航班状态</title>
@@ -633,7 +633,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
         </flight_status>
         <overlay_SecureAreas>
             <title>安检区域</title>
-            <description>可视化机场的内部安检区域，如果您有一个以上的‘安检部分’，看它们是如何分割的。</description>
+            <description>可视化机场的内部安检区域，如果您有一个以上的‘安检区域’，可观察它们是如何分块的。</description>
         </overlay_SecureAreas>
         <overlay_Environment>
             <title>环境热图</title>
@@ -641,19 +641,19 @@ SimAirport是LVGameDev LLC的商标。</copyright>
         </overlay_Environment>
         <overlay_Information>
             <title>信息热图</title>
-            <description>可视化发出知识的物品对乘客的影响。</description>
+            <description>可视化发出有关信息的物品对乘客的影响。</description>
         </overlay_Information>
         <overlay_Sectors>
             <title>部分视图</title>
-            <description>可视化机场的‘部分’。  这个报告/工具将来还有其他功能！ =)</description>
+            <description>可视化机场的各种‘区域’。  这个报告/工具将来还有其他功能！ =)</description>
         </overlay_Sectors>
         <overlay_PA>
             <title>PA 音响</title>
-            <description>音响系统覆盖可视化</description>
+            <description>可视化音响系统覆盖区域</description>
         </overlay_PA>
         <overlay_paxAI>
             <title>乘客AI决定</title>
-            <description>通过启用这个报告，然后点击任一乘客，看看乘客AI考虑做什么！注意： 这是我们暂时公开启用的排除错误工具，看看它是否能帮我们（和您）更好地集中在AI/选择错误上，平衡调整。 如有粗边，请谅解！</description>
+            <description>通过启用这个报告，然后点击任一乘客，看看乘客AI考虑做什么！注意： 这是我们暂时公开启用的排除错误工具，看看它是否能帮我们（和您）更好地将注意力集中在AI/选择错误上，平衡调整。 如有粗边，请谅解！</description>
         </overlay_paxAI>
         <bank>
             <title>银行余额</title>
@@ -692,16 +692,16 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <warning>由于天气原因，所有跑道目前都不活跃。如果您已有垂直和水平跑道，请考虑升级跑道，增加最大侧风容忍度。</warning>
         </weather>
         <overlay_paxflow>
-            <title>Pax Flow</title>
-            <description>Highlights all the passengers in your airport regardless of what floor they are currently on to assist in observing and improving the foot traffic flows throughout your airport.
+            <title>旅客足迹</title>
+            <description>高亮机场中的所有旅客（忽视其所在楼层）以了解旅客足迹，也许有助于改善“交通”。
 
-        	GREEN = Departure Pax
-        	RED = Arrival Pax
-        	CYAN = Connecting Flight Pax
-        	MAGENTA = Flight Crew
-        	YELLOW = Airport Staff
+        	绿色 = 将登机的旅客
+        	红色 = 已到达的旅客
+        	青色 = 将转机的旅客
+        	品红 = 机组人员
+        	黄色 = 机场员工
 
-&lt;b&gt;Alternate Views - Use TAB to switch.
+&lt;b&gt;可使用TAB键在多个视图间切换。
         	</description>
         </overlay_paxflow>
     </navbtntooltip>
@@ -835,7 +835,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <LevelGroundFloor>去底层</LevelGroundFloor>
         </keyfunc>
         <needs>
-            <Bladder>膀胱</Bladder>
+            <Bladder>如厕</Bladder>
             <Boredom>无聊</Boredom>
             <CrewLifecycleArrival>员工生命周期到达</CrewLifecycleArrival>
             <CrewLifecycleDeparture>员工生命周期出发</CrewLifecycleDeparture>
@@ -1116,9 +1116,9 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <OnOtherObject>必须放在{0}上</OnOtherObject>
             <BlockedBy>被{0}阻隔</BlockedBy>
             <ReqTouchOutdoors>必须靠近户外</ReqTouchOutdoors>
-            <QueueAdd>一次必须加到1个队伍最后</QueueAdd>
-            <QueueRemove>一次必须从1个队伍最后去除</QueueRemove>
-            <ZoneLimit>不能创建 {0} {1} 个以上区域</ZoneLimit>
+            <QueueAdd>必须从队尾开始操作</QueueAdd>
+            <QueueRemove>必须从队尾开始操作</QueueRemove>
+            <ZoneLimit>不能创建{0}个以上的 {1} 区域</ZoneLimit>
             <AssignmentNA>航班人员不需要在这里排队</AssignmentNA>
             <InvalidPlacement>无效的放置</InvalidPlacement>
             <computing>计算中...</computing>
@@ -1146,10 +1146,10 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <ReqProperAlignment>必须正确对齐</ReqProperAlignment>
             <ReqGateIdle>要求大门先闲置</ReqGateIdle>
             <ReqValidMaintZone>{0} requires repair that cannot be completed.  Build a valid maintainence zone to allow repairs to be conducted.</ReqValidMaintZone>
-            <ReqGroundFloor>Requires ground floor</ReqGroundFloor>
+            <ReqGroundFloor>必须在一层</ReqGroundFloor>
         </functionality>
         <RequiresMaterialValidation>需要 {0} {1}</RequiresMaterialValidation>
-        <ZoneMaxValidation>允许最多 {0} {1} 区。</ZoneMaxValidation>
+        <ZoneMaxValidation>至多允许存在{0}个 {1} 区。</ZoneMaxValidation>
         <ZoneEnclosedValidation>需要有门的完全密闭的空间。</ZoneEnclosedValidation>
         <ZoneSecureValidation>必须放在非安检区域。</ZoneSecureValidation>
         <ZoneSizeValidation>最小大小 {0} 乘 {1}。</ZoneSizeValidation>
@@ -1177,7 +1177,7 @@ SimAirport是LVGameDev LLC的商标。</copyright>
     <zones>
         <None>
             <name>无</name>
-            <description>用它彻底撤销一块地方的区域。</description>
+            <description>用此工具彻底撤销目标区域的规划。</description>
         </None>
         <Ticketing>
             <name>票务</name>
@@ -1201,9 +1201,9 @@ SimAirport是LVGameDev LLC的商标。</copyright>
         </Garbage>
         <Deliveries>
             <name>运输</name>
-            <description>这里是您的供给运往的地方。
+            <description>这里是您的货物“居住”的地方。
 
-b包括所有工程供给、零售库存和任何其他运输。 更大的区域能存储更多供给，您能用供给架进一步增加区域效率。 </description>
+货物包括所有工程物品、零售库存和任何其他物品。 更大的区域能存储更多货物，您能用储存架进一步提升区域容量。 </description>
         </Deliveries>
         <Dropoffs>
             <name>送机</name>
@@ -1223,7 +1223,7 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
         </BaggageClaim>
         <Cafe>
             <name>咖啡馆</name>
-            <description>这个区域让您建立零售空间，如购物区或食品服务区。 乘客花钱时更快乐，您也更快乐！</description>
+            <description>这个区域让您建立零售空间，如购物区或食品服务区。 乘客花钱时很快乐，您收钱时更快乐！</description>
         </Cafe>
         <Office>
             <name>办公室</name>
@@ -1235,15 +1235,15 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
         </Kitchen>
         <Storage>
             <name>储藏</name>
-            <description>这里储存剩下的供给箱。</description>
+            <description>这里储存剩下的货物。</description>
         </Storage>
         <Male_Restroom>
             <name>男士洗手间</name>
-            <description>如果乘客无法轻松使用洗手间，他们不会很快乐。 您用这个区域定义让乘客使用的洗手间。</description>
+            <description>如果旅客找不到洗手间，他们不会很快乐，您的保洁员也不会很快乐。 使用此工具以规划男性旅客使用的洗手间。</description>
         </Male_Restroom>
         <Female_Restroom>
             <name>女士洗手间</name>
-            <description>如果乘客无法轻松使用洗手间，他们不会很快乐。 您用这个区域定义让乘客使用的洗手间。</description>
+            <description>如果旅客找不到洗手间，他们不会很快乐，您的保洁员也不会很快乐。 使用此工具以规划男性旅客使用的洗手间。</description>
         </Female_Restroom>
         <Electrical>
             <name>电气</name>
@@ -1254,16 +1254,16 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <description>给头等舱乘客添加休息室，更好地照顾到他们的需求和愿望。</description>
         </First_Class_Lounge>
         <Flight_Crew_Lounge>
-            <name>乘务人员休息室</name>
-            <description>给乘务人员添加休息室，让他们能私密地放松，等着乘飞机。</description>
+            <name>机组人员休息室</name>
+            <description>给机组人员添加休息室，让他们能私密地放松，从而更好地在飞机上服务旅客。</description>
         </Flight_Crew_Lounge>
         <Maintenance>
             <name>维护</name>
-            <description>这里是储存维护供给的地方。</description>
+            <description>这里是储存维护用品的地方。</description>
         </Maintenance>
         <Arcade>
-            <name>Arcade</name>
-            <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
+            <name>游艺</name>
+            <description>帮助旅客放松心情、减轻压力的好去处。</description>
         </Arcade>
     </zones>
     <money>
@@ -1413,12 +1413,12 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <description>点击并拖动，缩短队伍的末端。</description>
         </RemoveQueue>
         <VisualizeQueue>
-            <name>可视化队伍</name>
+            <name>队伍可视化</name>
             <description>显示机场里的所有队伍和分配的可视化工具——一次全部展示。</description>
         </VisualizeQueue>
         <AreaSell>
             <name>区域卖出</name>
-            <description>拖到供给堆顶端，就能一次卖出多个。</description>
+            <description>在一层的储藏区使用此工具以批量卖出所选区域内的物品。</description>
             <tt>卖出价</tt>
         </AreaSell>
         <AsphaltRunway>
@@ -1545,7 +1545,7 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
         </Pricing>
         <BankLoans2>
             <name>银行贷款 II</name>
-            <row0>让您一次借最多$500,000。</row0>
+            <row0>将贷款额度上限提升至$500,000。</row0>
         </BankLoans2>
         <BankInterest>
             <name>较低的利息 I</name>
@@ -1587,12 +1587,12 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
         </FuelPorts>
         <AdvTicketing>
             <name>高级出票</name>
-            <row0>能够把飞机口分配到具体的出票台。</row0>
+            <row0>能够把登机口分配到具体的出票台。</row0>
         </AdvTicketing>
         <AdvSecurity>
             <name>高级安检</name>
             <row0>使用远程安检站和远程行李扫描仪，取得更高效的安检运营。</row0>
-            <description>把ID检查站分配到行李扫描仪的能力；把行李扫描仪分配到金属探测器 / 身体扫描仪——有精准的流通控制。</description>
+            <description>允许把ID检查站分配到行李扫描仪；允许将行李扫描仪分配到金属探测器/身体扫描仪————有效提升安检队列效率。。</description>
         </AdvSecurity>
         <Construction>
             <name>施工</name>
@@ -1604,7 +1604,7 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
         </IntersectingRunways>
         <BankLoans3>
             <name>银行贷款III</name>
-            <row0>让您一次最多借$200万。</row0>
+            <row0>将贷款额度上限提升至$200万。</row0>
         </BankLoans3>
         <BankInterest2>
             <name>较低的利息II</name>
@@ -1636,7 +1636,7 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
         </Maintenance>
         <Escalators>
             <name>扶手电梯</name>
-            <row0>让你可一放下单方向扶梯，让乘客可一上下不同层。</row0>
+            <row0>允许安装单方向扶梯，让乘客通过扶梯前往不同楼层。</row0>
         </Escalators>
         <OneWayTaxiways>
             <name>单方向滑行道</name>
@@ -1647,7 +1647,7 @@ b包括所有工程供给、零售库存和任何其他运输。 更大的区域
             <row0>查一下你的信用评级，看你可以借多少钱。</row0>
         </CreditReporting>
         <BagHubBoosters>
-            <name>Bag Hub Boosters</name>
+            <name>改进的行李枢纽</name>
             <row0>Allows construction of Baggage Hub Boosters for increased sorting throughput on your hubs.</row0>
         </BagHubBoosters>
     </research>
