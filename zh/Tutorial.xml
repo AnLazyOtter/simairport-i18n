@@ -24,7 +24,7 @@
         <TutorialWindow>为避免影响视野，你可以按住鼠标左键不放并移动鼠标以将此教学引导窗口一旁。
         
 大部分类似的窗口都可以用上述方式拖拽，同时也都可以通过点击X图标来关闭它们。对于本窗口，你可以点击右上角的“——”来最小化窗口，稍后可以点击“□”来还原窗口。</TutorialWindow>
-        <TutorialWindowObjective>尝试拖拽此窗口到一旁吧！</TutorialWindowObjective>
+        <TutorialWindowObjective>任务：尝试拖拽此窗口到一旁吧！</TutorialWindowObjective>
         <UserInterface>这个复杂的机场模拟器可以很简单地上手，先来看看屏幕上的这些按钮吧~
 
 顶部是状态栏，右上角是时间控制，左下一排是机场的操作面板，右下角的按钮可用于调出各种信息的视图。
@@ -37,7 +37,7 @@
         <Hire4Workmen>在你指定某区域为建筑物后，工人们会自动订购所需的建筑材料。
 
 材料会由卡车通过公路运输到机场，于西南角的“运输区”卸货。工人们接下来会将这些材料放置到对应的位置上并开始施工。任何多余的材料，比如规划好后又取消建造而产生的材料，会被放置于“储藏区”。</Hire4Workmen>
-        <Hire4WorkmenObjective>教学任务：点击左下角的“员工”按钮(快捷键：KeyboardFunctions.StaffHub)以雇佣工人，使机场内工人总人数达到6。</Hire4WorkmenObjective>
+        <Hire4WorkmenObjective>教学任务：点击左下角的“员工”按钮(快捷键：KeyboardFunctions.StaffHub)并尝试雇佣工人，使机场内工人总人数达到6。</Hire4WorkmenObjective>
         <DragFoundation>接下来尝试建造地基：点击“建造”按钮，选择二级菜单“工具”，然后点击“地基”。光标悬浮在任意按钮上即会弹出说明性文字。
         
 规划一个区域后，工人会前去施工。施工需要一段时间，但你可以调整时间速率来避免无聊的等待：右上角的时间面板的四个按钮从左到右分别是暂停（快捷键：空格）、1/4/10倍速（快捷键：1/2/3）。</DragFoundation>
@@ -58,18 +58,18 @@
 
 按下 KeyboardFunctions.RotateObject 或鼠标中键可以旋转一个物品。从建造/区划按钮中选中物品后，右键单击可以取消选中。</ProblemArcade>
         <ProblemArcadeObjective>任务：尝试修复游艺区目前的所有问题，使其可以正常运作。</ProblemArcadeObjective>
-        <EnvironmentTitle>Airport Improvements and Heatmaps</EnvironmentTitle>
-        <Environment>Airports can be frustrating for passengers. A humble plant is sometimes what's needed to cheer up them up!
+        <EnvironmentTitle>发展机场与各种热图</EnvironmentTitle>
+        <Environment>机场环境若是丑陋，可能会导致旅客心情不好。也许可以买一些盆栽来改善环境、愉悦大众。
 
-Scenery can be found in the build menu, under Objects and Decor. You can also change the floor design!
+观赏植物可以在建造-物品-装饰下找到。你同时也可以在建造-建设-地面下购入地板来改变整体样式。
 
-You can use the Environment Heatmap to see the most appealing areas of your airport.</Environment>
-        <Decorate>The other heatmaps are useful as well.
+你可以在激活环境热图（位于屏幕右下角，已自动激活）来观察你机场的环境：红色表示亟待改善、绿色表示环境优良。</Environment>
+        <Decorate>其余的热图也很有用。
 
-The information heatmap shows where passengers can get the latest updates on their flights.
+信息热图（位于屏幕右下角，已自动激活）展示了成可以可以从哪里获知有关航班的最新消息。
 
-Place info displays and kiosks to help passengers keep track, or else they may miss their flights.</Decorate>
-        <PlaneStandsTitle>Fixing the Broken Plane Stand!</PlaneStandsTitle>
+放置航班信息显示器（Flight info display）、信息亭(kiosk)等物品可以帮助旅客寻找登机口、楼层等，从而避免错过航班。</Decorate>
+        <PlaneStandsTitle>修复损坏的停机坪！Fixing the Broken Plane Stand!</PlaneStandsTitle>
         <PlaneStands>We don't have any planes! In order to get planes, we first need a working plane stand, connected to a taxiway and assigned a Gate Agent Desk.
 
 Tip: In the Build Menu, you can search 'Gate' or 'Taxiway' to quickly find them. Once built, click on either the stand or the desk to assign them to each other.</PlaneStands>
