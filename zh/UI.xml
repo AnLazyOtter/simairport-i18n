@@ -1635,8 +1635,8 @@ SimAirport是LVGameDev LLC的商标。</copyright>
             <row0>让您设置所有维护选项，包括不同物品类型的维修标准。</row0>
         </Maintenance>
         <Escalators>
-            <name>扶手电梯</name>
-            <row0>改造航站楼，从而能够安装单向扶梯，让乘客可一上下不同层。</row0>
+            <name> 扶手电梯 </name>
+            <row0>改造航站楼，从而能够安装单向扶梯，让乘客可以通过扶梯前往各个楼层。</row0>
         </Escalators>
         <OneWayTaxiways>
             <name>单方向滑行道</name>
